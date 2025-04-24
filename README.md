@@ -22,8 +22,7 @@ A* Search Algorithm
    
     d) for each successor
         i) if successor is the goal, stop search
-        
-        ii) else, compute both g and h for successor
+         ii) else, compute both g and h for successor
           successor.g = q.g + distance between 
                               successor and q
           successor.h = distance from goal to 
@@ -43,11 +42,11 @@ A* Search Algorithm
             a lower f than successor, skip this successor
             otherwise, add  the node to the open list
      end (for loop)
-  
-    e) push q on the closed list
+    e ) push q on the closed list
     end (while loop)
 
 ## PROGRAM
+
 ```
 from collections import defaultdict
 H_dist ={}
